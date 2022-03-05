@@ -1,0 +1,48 @@
+.display {
+    text-align: center;
+    display: table;
+    height: 100%;
+    max-width: 70%;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.wrap {
+    vertical-align: middle;
+}
+
+.key {
+    color: #f1f1f1;
+    font-family: 'Roboto', sans-serif;
+    font-size: 250px;
+    margin-bottom: 30px;
+}
+
+.cards {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.eventkey, .eventcode{
+    margin: 10px;
+    
+}
+
+.cardhead {
+    background-color: #5b60ff;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    width: 300px;
+    height: 30px;
+    line-height: 30px;
+    font-size: 27px;
+}
+.cardbody {
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    color: white;
+    background-color: #5f5f5f;
+    height: 63px;
+    line-height:63px;
+}
